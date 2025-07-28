@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BLITES - Shop stylish black and white shirts for men and women. Free delivery, perfect design, and premium comfort.">
+    <meta name="keywords" content="BLITES, clothing brand, black and white shirts, fashion, casual apparel">
+    <meta name="author" content="BLITES">
+    <title>BLITES - Premium Black and White Shirts</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Header -->
+    <header class="bg-black text-white py-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">BLITES</div>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#collection" class="hover:text-gray-300">Collection</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gray-800 text-white py-20 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">BLITES</h1>
+            <p class="text-xl mb-6">Experience the pinnacle of black and white shirt design.</p>
+            <a href="#collection" class="bg-white text-black py-2 px-6 rounded-full hover:bg-gray-200">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">About BLITES</h2>
+            <p class="text-lg mb-6">BLITES creates premium black and white shirts using the finest cotton and silk blends for unmatched comfort and style. Meet our team:</p>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold">Marcus</h3>
+                    <p>Chief Designer</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Isabelle</h3>
+                    <p>Head of Production</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Julian</h3>
+                    <p>Brand Strategist</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Seraphina</h3>
+                    <p>Customer Relations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="bg-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Signature Shirts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="border p-4">
+                    <img src="https://via.placeholder.com/150?text=Midnight" alt="Midnight Black Shirt" class="mb-4">
+                    <h3 class="text-xl font-semibold">Midnight</h3>
+                    <p>$75.00</p>
+                    <p class="text-sm">Sleek, modern fit for formal events.</p>
+                    <a href="#checkout" class="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">Acquire</a>
+                </div>
+                <div class="border p-4">
+                    <img src="https://via.placeholder.com/150?text=Cloud" alt="Cloud White Shirt" class="mb-4">
+                    <h3 class="text-xl font-semibold">Cloud</h3>
+                    <p>$85.00</p>
+                    <p class="text-sm">Pure comfort for daily wear.</p>
+                    <a href="#checkout" class="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">Acquire</a>
+                </div>
+                <div class="border p-4">
+                    <img src="https://via.placeholder.com/150?text=Onyx" alt="Onyx Black Shirt" class="mb-4">
+                    <h3 class="text-xl font-semibold">Onyx</h3>
+                    <p>$95.00</p>
+                    <p class="text-sm">Bold choice for evening wear.</p>
+                    <a href="#checkout" class="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">Acquire</a>
+                </div>
+                <div class="border p-4">
+                    <img src="https://via.placeholder.com/150?text=Pearl" alt="Pearl White Shirt" class="mb-4">
+                    <h3 class="text-xl font-semibold">Pearl</h3>
+                    <p>$105.00</p>
+                    <p class="text-sm">Refined look for sophisticated gatherings.</p>
+                    <a href="#checkout" class="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">Acquire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Get In Touch</h2>
+            <form class="max-w-md mx-auto">
+                <input type="text" placeholder="Name" class="w-full p-2 mb-4 border rounded">
+                <input type="email" placeholder="Email" class="w-full p-2 mb-4 border rounded">
+                <textarea placeholder="Message" class="w-full p-2 mb-4 border rounded" rows="4"></textarea>
+                <button type="submit" class="bg-black text-white py-2 px-6 rounded hover:bg-gray-800">Send Message</button>
+            </form>
+            <div class="mt-8">
+                <p>WhatsApp: 9945289769</p>
+                <p>Email: <a href="mailto:support@blites.com" class="text-blue-600">support@blites.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-4 text-center">
+        <p>© 2025 BLITES. All rights reserved.</p>
+    </footer>
+</body>
+</html>
